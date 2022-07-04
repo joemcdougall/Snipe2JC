@@ -18,3 +18,8 @@ Scripts to integrate SnipeiIT with JumpCloud
 ## Notes
 
 1. Make sure you add custom fields to Snipe-IT to store CPU and RAM info.
+
+## To do
+
+- Reconciliation script - to be run daily, to report changes. I have used the JumpCloud host ID field and populate the Snipe IT custom field with this ID, so that the reconcilliation script can use this rather than a hostname match. Also has benefit of allowing manual entry of JC agent ID to Snipe IT field, so that machines can be paired. This is in progress.
+- Onboarding script - currently working on script to set up new user in JC, create new user in Snipe, assign laptop, create Google Workspace account.
